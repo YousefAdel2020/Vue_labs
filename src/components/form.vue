@@ -67,6 +67,11 @@ import adminsComponent from './admins.vue'
                 {
                     this.allAdmins.push(this.formValues);
                 }
+                this.formValues={
+                    firstName:"",
+                    lastName:"",
+                    role:""
+                }
                 // this.formValues.firstName="";
                 // this.formValues.lastName="";
                 // this.formValues.role="";
